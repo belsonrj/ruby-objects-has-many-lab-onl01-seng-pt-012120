@@ -6,8 +6,13 @@ class Artist
     @songs = [] 
   end
 
+<<<<<<< HEAD
   def songs 
      Song.all.select {|song| self} #selecting all songs from specific artirts
+=======
+  def songs
+    @songs
+>>>>>>> ba5ebce78d857eeadeed28a1499c1088c73a986b
   end
 
   def add_song(song)
